@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          backgroundAlpha: 0.0,
+          color2: 0xcf9f01,
+          wingSpan: 10.0,
+          separation: 100.0,
+        });
+      });
+    </script>
+    <title>Thiago de Paula Souza - Links</title>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main>
+      <header>
+        <a href="https://github.com/ThiagodePaulaSouza">
+          <img
+            src="https://github.com/ThiagodePaulaSouza.png"
+            alt="avatar logo"
+          />
+        </a>
+        <h1>
+          <a href="https://www.instagram.com/salequi_lapua/">@salequi_lapua</a>
+        </h1>
+      </header>
+      <ul>
+        <a href="https://github.com/ThiagodePaulaSouza">
+          <li>
+            <img src="./images/github.svg" alt="github logo" width="20" />
+            GitHub
+          </li>
+        </a>
+        <a href="https://www.linkedin.com/in/thiagodepaulasouza/">
+          <li>
+            <img
+              src="./images/linkedin.svg"
+              alt="linkedin logo"
+              width="20"
+            />LinkedIn
+          </li>
+        </a>
+        <a href="https://www.youtube.com/c/Stivinho">
+          <li>
+            <img
+              src="./images/youtube.svg"
+              alt="linkedin logo"
+              width="20"
+            />Youtube
+          </li>
+        </a>
+        <a href="https://www.instagram.com/salequi_lapua/">
+          <li>
+            <img
+              src="./images/instagram.svg"
+              alt="instagram logo"
+              width="20"
+            />Instagram
+          </li>
+        </a>
+      </ul>
+    </main>
+  </body>
+</html>
